@@ -1,0 +1,16 @@
+server:
+  port: 8081
+
+# Kafka Producer Properties
+app:
+  kafka:
+    producer:
+      topic: employee-topic
+
+spring:
+  kafka:
+    producer:
+      retries: 0
+      bootstrap-servers: localhost:9092
+      key-serializer: org.apache.kafka.common.serialization.StringSerializer
+      value-serializer: org.springframework.kafka.support.serializer.JsonSerializer
