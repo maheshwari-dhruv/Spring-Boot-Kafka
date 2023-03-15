@@ -17,10 +17,6 @@ import java.time.ZoneId;
 import java.time.ZonedDateTime;
 import java.util.concurrent.CompletableFuture;
 
-/**
- * @author Kaustubh Dongare
- * @version $Id: KafkaProducerServiceImpl.java, v 0.1 2023-03-14 08:41 PM Kaustubh Dongare Exp $$
- */
 @Service
 @Slf4j
 public class KafkaProducerServiceImpl implements KafkaProducerService {
