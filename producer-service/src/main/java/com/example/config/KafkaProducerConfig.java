@@ -13,10 +13,6 @@ import org.springframework.kafka.core.ProducerFactory;
 import java.util.HashMap;
 import java.util.Map;
 
-/**
- * @author Kaustubh Dongare
- * @version $Id: KafkaProducerConfig.java, v 0.1 2023-03-14 08:33 PM Kaustubh Dongare Exp $$
- */
 @Configuration
 public class KafkaProducerConfig {
 
